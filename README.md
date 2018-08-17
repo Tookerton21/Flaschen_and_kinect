@@ -1,4 +1,4 @@
-#Flachen Taschen and xbox 360 kinnect
+# Flachen Taschen and xbox 360 kinnect
 
-This is using the flaschen taschen project for a display with the dimmensions
-of w:35 x h:30. From the Flaschen Taschen API, primarily the udpFlaschenT.. was used to send the udp packets to the display. Open kinnect, Opengl and glut was used to for library to grab and recieve the information from the kinect. Primary grab the pixels based on the constraints on the kinect w x h dimensions and set the pixels to that color from the pixel.  
+This project was created using the Api from the [flaschen tashen Api](https://github.com/hzeller/flaschen-taschen). The server portion was used to send the Data over to the LED display. As for the client only an instance of flaschen tashen was used to be able to set the pixels to the color that we wished to set it to. Then send it off to the server. Used glut and opengl to get the video information off of the xbox kinect. Would take current frames from the xbox kinect, grab x amount of pixels colors that would fit on our display, and set this to our display. will work with any size constraints. 
+
